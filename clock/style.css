@@ -1,0 +1,11 @@
+.card div {
+    width: 10rem;
+    height: 10rem;
+}
+
+@media (max-width: 576px) {
+    .card div {
+        width: 5rem;
+        height: 5rem;
+    }
+}
