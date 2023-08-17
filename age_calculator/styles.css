@@ -1,0 +1,13 @@
+.container {
+    width:500px;
+    height: 500px;
+}
+.hidden {
+    display: none;
+}
+
+@media (max-width:600px) {
+    .container {
+        width: 300px;
+    }
+}

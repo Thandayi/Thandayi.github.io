@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Since Birth</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-secondary bg-gradient vh-100">
+    <div class="container rounded-3 shadow-lg my-5 d-flex flex-column justify-content-evenly align-items-center">
+        <div class="input-area d-flex flex-column justify-content-between align-items-center border border-3 border-secondary rounded-5 p-2">
+            <h2 class="my-1">Enter Your Birth Date</h2>
+            <input type="date" name="birthdate" class="mb-2 border border-1 border-primary rounded-3 p-1" id="birthdate">
+            <button class="calculate btn btn-primary">Calculate</button>
+        </div>
+        
+        <div class="content-area hidden">
+            <h2>
+                You are <span class="age">00</span> year<span class="plural">s</span> old.
+            </h2><br>
+            <div>
+                <label for="yrdsp" class="fw-bold">Years:</label>&nbsp;<div class="d-inline-block" id="yrdsp">00</div>
+            </div>
+            
+            <div>
+                <label for="mthdsp" class="fw-bold">Months:</label>&nbsp;<div class="d-inline-block" id="mthdsp">00</div>
+            </div>
+
+            <div>
+                <label for="wkdsp" class="fw-bold">Weeks:</label>&nbsp;<div class="d-inline-block" id="wkdsp">00</div>
+            </div>
+
+            <div>
+                <label for="dydsp" class="fw-bold">Days:</label>&nbsp;<div class="d-inline-block" id="dydsp">00</div>
+            </div>
+
+            <div>
+                <label for="hrdsp" class="fw-bold">Hours:</label>&nbsp;<div class="d-inline-block" id="hrdsp">00</div>
+            </div>
+
+            <div>
+                <label for="mndsp" class="fw-bold">Minutes:</label>&nbsp;<div class="d-inline-block" id="mndsp">00</div>
+            </div>
+            <div>
+                <label for="scdsp" class="fw-bold">Seconds:</label>&nbsp;<div class="d-inline-block" id="scdsp">00</div>
+            </div>
+            <div>
+                <label for="msdsp" class="fw-bold">Milliseconds:</label>&nbsp;<div class="d-inline-block" id="msdsp">00</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="jquery-3.7.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
